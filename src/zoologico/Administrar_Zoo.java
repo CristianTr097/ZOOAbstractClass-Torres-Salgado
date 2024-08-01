@@ -12,7 +12,7 @@ public class Administrar_Zoo {
     public Administrar_Zoo(){
     }
     
-    public JSONArray createAnimales(){
+    public static JSONArray createAnimales(){
         String nombre, especie, size;
         Integer id;
         Scanner lector = new Scanner (System.in);
