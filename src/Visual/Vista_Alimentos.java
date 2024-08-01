@@ -51,6 +51,11 @@ public class Vista_Alimentos extends javax.swing.JFrame {
         jLabel2.setText("Marque para dar los alimentos de cada jornada:");
 
         jCheckBox1.setText("Mañana");
+        jCheckBox1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jCheckBox1ActionPerformed(evt);
+            }
+        });
 
         jCheckBox2.setText("Tarde");
 
@@ -125,8 +130,13 @@ public class Vista_Alimentos extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
-        // TODO add your handling code here:
+        Visual_Zoo Zoo = new Visual_Zoo();
+        Zoo.show(rootPaneCheckingEnabled);
     }//GEN-LAST:event_jButton3ActionPerformed
+
+    private void jCheckBox1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jCheckBox1ActionPerformed
 
     /**
      * @param args the command line arguments
