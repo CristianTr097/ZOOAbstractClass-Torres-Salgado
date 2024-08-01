@@ -36,7 +36,7 @@ public class Visual_Animales extends javax.swing.JFrame {
 
         jPanel1.setBackground(new java.awt.Color(204, 255, 204));
 
-        jLabel1.setText("Administracion Animales");
+        jLabel1.setText("Administrar Animales");
 
         jButton1.setText("Buscar Animales");
 
